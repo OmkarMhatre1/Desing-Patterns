@@ -9,6 +9,8 @@ public class EmployeeFactory {
             return new AndroidDev();
         } else if (empType.trim().equalsIgnoreCase("Web Dev")) {
             return new WebDev();
+        } else if (empType.trim().equalsIgnoreCase("Manager")) {
+            return new Manger();
         } else {
             return null;
         }

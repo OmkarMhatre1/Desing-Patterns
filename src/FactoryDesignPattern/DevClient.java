@@ -10,6 +10,8 @@ public class DevClient {
         Employee wevDev = EmployeeFactory.getEmployee("Web Dev");
         System.out.println(wevDev.salary());
 
+        Employee manger = EmployeeFactory.getEmployee("Manager");
+        System.out.println(manger.salary());
 
     }
 }
